@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arte y entretenimiento</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #111;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 2rem 1rem;
+      background-color: #1a1a1a;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: color 0.3s;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      color: #f39c12;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      background-color: #111;
+      margin-top: 3rem;
+    }
+    footer a {
+      color: #f39c12;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arte y entretenimiento</h1>
+  </header>
+
+  <nav>
+    <a href="#">Vinil</a>
+    <a href="#">Merchandising</a>
+    <a href="#">CD</a>
+    <a href="#">Artists</a>
+    <a href="#">Conciertos</a>
+    <a href="#">Movies</a>
+  </nav>
+
+  <footer>
+    <p>Contactos: <a href="mailto:info@dominioentertainment.com">info@dominioentertainment.com</a></p>
+    <p>Instagram: <a href="https://instagram.com/dominioentertainment" target="_blank">@dominioentertainment</a></p>
+  </footer>
+</body>
+</html>
